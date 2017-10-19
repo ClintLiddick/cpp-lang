@@ -1,6 +1,8 @@
 All content is licensed under a Creative Commons Attribution 4.0 International License.
 All source code is free and released into the public domain under the Unlicense.
 
+The C++ logo is a trademark of the Standard C++ Foundation and used with their permission: https://isocpp.org/home/terms-of-use
+
 ---------------------------------------------------------------------------------
 
 The Unlicense
