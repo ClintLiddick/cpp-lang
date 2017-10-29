@@ -20,6 +20,8 @@
         integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
         crossorigin="anonymous">
   <link rel="stylesheet"
+        href="prism.css">
+  <link rel="stylesheet"
         href="style.css">
   
 </head>
@@ -33,8 +35,21 @@
       <p class="lead">Power and Precision.</p>
 
       <p>C++ is a general purpose, multiparadigm programming language designed for high performance and total control.</p>
+
     </div>
-  </div>
+
+    <pre class="line-numbers">
+        <code class="language-cpp">
+#include &lt;iostream&gt;
+
+int main() {
+  std::cout << "Hello world" << std::endl;
+  return 0;
+}
+        </code>
+    </pre>
+
+  </div> <!-- container -->
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
           integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -48,5 +63,6 @@
           integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
           crossorigin="anonymous">
   </script>
+  <script src="/prism.js"></script>
 </body>
 </html>
